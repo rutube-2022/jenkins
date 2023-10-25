@@ -3,12 +3,12 @@ kind: Service
 metadata:
   name: nginx-service
 spec:
-  loadBalancerIP: 10.32.2.177
+#  loadBalancerIP: 10.32.2.177
 #  externalIPs:
 #  - 10.32.2.177
 #  - 10.32.2.179
-  allocateLoadBalancerNodePorts: false
-  type: LoadBalancer
+#  allocateLoadBalancerNodePorts: false
+#  type: LoadBalancer
   selector:
     run: my-nginx-ds
   ports:
